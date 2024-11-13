@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+}
+
+.header{
+    background-color: white;
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+.side-bar{
+    background-color: deepskyblue;
+    display: grid;
+    grid-row: 1 / 4;
+
+}
+
+.container-content{
+    background-color: lightgrey;
+    display: grid;
+    grid-row: 2 / 3;
+    
+}
