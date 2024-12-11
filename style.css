@@ -216,14 +216,14 @@ input{
 .card-icons svg {
     width: 20px;
    
-    fill: #333; /* Set SVG icon color */
+    fill: #333; 
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
   }
   
 .card-icons svg:hover {
-    transform: scale(1.1); /* Adds a hover effect */
-    fill: #ff9800; /* Optional: Change color on hover */
+    transform: scale(1.1); 
+    fill: #ff9800; 
   }
 .right-content{
     display: grid;
@@ -271,4 +271,40 @@ input{
 
 .section:last-child{
     border-bottom: none;
+}
+
+#card-trending{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: auto;
+    padding-top: 14px;
+}
+
+.trending-icons svg{
+    width: 38px;
+}
+
+.trending-icons{
+    display: grid;
+    grid-column: 1 / 2;
+    text-align: center;
+    
+}
+
+.trending-names{
+    display: grid;
+    grid-column: 2 / 3;
+    text-align: left;
+}
+
+.acc-name h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.acc-name p{
+    margin: 0;
+    font-size: 12px;
+    color: #555;
 }
